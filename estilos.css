@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* { /* '*' SELECTOR UNIVERSAL */
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body { /* CUERPO */
+	background-image: url(img/PatronFondo2b.png);
+	background-repeat: repeat;
+}
+
+/* ------- DIV NAV-SOCIALES ------- */
+
+#nav-sociales {
+	height: 38px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);	
+}
+
+#nav-sociales ul {
+	margin: auto;
+	width: 850px;
+}
+
+#nav-sociales ul li {
+	float: right;
+	list-style-type: none;
+	margin-left: 8px;
+	margin-top: 3px;
+}
+
+/* -------------------------------- */
+
+#contenedor { /* DIV CONTENEDOR */
+	margin: auto;
+	height: auto;
+	width: 850px;	
+}
+ 
+#encabezado { /* DIV ENCABEZADO */
+	background-image: url(img/encabezado.png);
+	height: 225px;
+	/* No le pongo ancho, porque toma el ancho del contenedor.
+	La imagen es de 850 x 225 px */ 	
+}
+
+/* -------- DIV BOTONERA -------- */
+
+#botonera {
+	height: 40px;
+	background-color: rgba(16,27,37,1);	
+}
+
+#botonera ul li {
+	float: left;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+	width: 167px;
+	list-style-type: none;	
+}
+
+#botonera ul li a {
+	font-family: 'Bungee', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+	
+#botonera ul li a:hover {
+	color: rgba(255,109,0,1);
+	text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
+}
+
+/* -------------------------------- */
+
+#centro { /* DIV CENTRO */
+	background-color: rgba(255,255,255,1);
+	height: 640px;
+}
+
+/* ---------- DIV CAJA 1 ---------- */
+
+#caja1 {
+	width: 550px;
+	height: 600px;
+	background-color: rgba(0,0,0,0.9);
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja1  h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: rgba(0,255,102,1);
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-left: 12px;
+}
+
+#caja1 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	margin-left: 12px;	
+}
+
+/* -------------------------------- */
+
+/* ---------- DIV CAJA 2 ---------- */
+
+#caja2 {
+	width: 210px;
+	height: 600px;
+	background-color: rgba(254,171,122,0.9);
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja2  h4 {
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 400;
+	color: rgba(0,0,51,1);
+	vertical-align: middle;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#caja2 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12.2px;
+	line-height: 16.5px;
+	color: rgba(0,0,0,1);
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;	
+}
+
+/* -------------------------------- */
+
+/* ---------- DIV CAJA 3 ---------- */
+
+#caja3 {
+	width: 800px;
+	height: 250px;
+	background-color: rgba(0,0,0,0.9);
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja3  h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: rgba(0,255,102,1);
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-left: 12px;
+}
+
+#caja3 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	margin-left: 12px;	
+}
+
+/* -------------------------------- */
+
+/* ---------- CLASE CAJAS (PROGRAMAS.HTML) ---------- */
+
+.cajas {
+	width: 30%;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 16px;
+	float: left;
+	background-color: rgba(0,0,0,0.9);
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.cajas h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgba(0,0,0,1);
+	background-color: rgba(254,171,122,1);
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cajas p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	margin-top: 8px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.cajas h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 8px;
+}
+
+.cajas a {
+	color: rgba(0,255,102,1);
+}
+
+.cajas a:hover {
+	color: rgba(255,109,0,1);
+}
+
+/* ---------- ACORDEÓN (HISTORIA.HTML) ---------- */
+
+#centro #Accordion1 {
+	font-family: 'Staatliches', cursive;
+	font-size: 18px;
+	color: rgba(254,171,122,1);
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+	background-color: rgba(16,27,37,1);
+	text-align: center;
+}
+
+#centro #Accordion1 p {
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: auto;
+	width: 450px;		
+}
+
+#centro #Accordion1 img {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+/* -------------------------------- */
+
+/* ---------- GALERIA (GALERIA.HTML) ---------- */
+
+#jssor_1 {
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 1);
+	background-color: rgba(0, 0, 0, 1);		
+}
+
+/* -------------------------------- */
+
+/* ---------- FORMULARIO (CONTACTO.HTML) ---------- */
+
+#caja-form h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: rgba(0,0,0,1);
+	background-color: rgba(254,171,122,1);
+	text-align: center;
+	vertical-align: middle;
+}
+
+#caja-form {
+	float: left;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 20px;
+	background-color: rgba(16,27,37,1);
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja-form form {
+	/*border: 2px solid rgba(153,255,10,1);*/	
+}
+
+form label {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(255,255,255,1);
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+form input {
+	color: rgba(0,0,0,1);
+	height: 30px;
+	width: 380px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	border-radius: 10px; /*REDONDEA EL BORDE*/
+}
+
+form textarea {
+	color: rgba(0,0,0,1);
+	width: 380px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	border-radius: 10px;
+}
+
+#enviar {
+	font-family: 'Staatliches', cursive;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	color: rgba(0,0,0,1);
+	background-color: rgba(254,171,122,1);
+	height: 30px;
+	width: 120px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 70px;
+	border-radius: 10px;
+}
+
+#reset {
+	font-family: 'Staatliches', cursive;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	color: rgba(0,0,0,1);
+	background-color: rgba(255,255,255,1);
+	height: 30px;
+	width: 120px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 70px;
+	border-radius: 10px;
+}
+
+/* ---------- VIDEO (CONTACTO.HTML) ---------- */
+
+#caja-video {
+	float: right;
+	width: 400px;
+	margin-top: 15px;
+	margin-right: 20px;
+	/*border: 1px solid rgba(153,0,0,1);*/
+	background-color: rgba(254,171,122,1);
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja-video #video {
+	margin-top: 3px;
+	margin-left: 10px;
+	/*border: 1px solid rgba(153,0,0,1);*/
+}
+
+#caja-video h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 22px;
+	line-height: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: rgba(255,255,255,1);
+	background-color: rgba(16,27,37,1);
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* -------------------------------- */
+
+/* ---------- DIV CAJA 4 ---------- */
+
+#caja4 {
+	width: 400px;
+	height: 198px;
+	background-color: rgba(0,0,0,0.9);
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja4  h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: rgba(254,171,122,1);
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-left: 12px;
+}
+
+#caja4 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	margin-left: 12px;	
+}
+
+/* ---------- DIV CAJA 5 ---------- */
+
+#caja5 {
+	width: 810px;
+	height: 140px;
+	background-color: rgba(0,0,0,0.9);
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+#caja5  h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	color: rgba(0,255,102,1);
+	vertical-align: middle;
+	margin-top: 7px;
+	margin-left: 12px;
+}
+
+#caja5 p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	color: rgba(255,255,255,1);
+	text-align: justify;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-right: 12px;
+	margin-bottom: 5px;
+	margin-left: 12px;	
+}
+
+/* -------------------------------- */
+
+#pie { /* DIV PIE */
+	height: 30px;
+	background-color: rgba(16,27,37,1);
+	font-family: 'Bungee', cursive;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	color: rgba(255,255,255,1);
+}
